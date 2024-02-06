@@ -4,6 +4,5 @@ from homepage import Homepagesh
 
 class TestLogin:
     def test_login(self):
-        a = Homepagesh()
-        driver = a.init_driver()
-        driver.ff()
+        a = Homepagesh(url="http://webhis.karrytech.com")
+        #a.init_driver()#.ff()

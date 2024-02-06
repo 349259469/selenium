@@ -1,6 +1,9 @@
 from selenium import webdriver
 
-class Loginpagesh:
-    def ff(self):
+from driverinitutil import DriverInit
+
+
+class Loginpagesh(DriverInit):
+    def ff(self,webdriver):
         print('111')
 
